@@ -38,18 +38,18 @@ body{
     margin: 0 auto;
     padding: 20px;
     border-radius: 5px;
-    max-width: 40rem; /* Ubah lebar maksimum dengan unit rem */
+    max-width: 40rem; 
 }
 
 .form-group {
     display: flex;
-    justify-content: center; /* Pusatkan elemen di dalam .form-group */
+    justify-content: center; 
 }
 
 .input-container {
     display: flex;
-    width: 100%; /* Gunakan lebar 100% agar responsif */
-    max-width: 30rem; /* Ubah lebar maksimum dengan unit rem */
+    width: 100%; 
+    max-width: 30rem; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
