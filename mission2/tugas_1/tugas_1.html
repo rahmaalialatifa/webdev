@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shopping Cart</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="tugas_1.css" />
+        <script src="tugas_1.js" async></script>
+    </head>
+    <body>
+        <header>
+            <h1 class="title">iCashier</h1>
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header">McDonald's Menu</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Double Cheeseburger</span>
+                    <img class="shop-item-image" src="images/Double.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rp. 39.500</span>
+                        <div class="counter">
+                            <button class="minus">-</button>
+                            <span class="count">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">McChicken</span>
+                    <img class="shop-item-image" src="images/McChicken.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rp. 32.000</span>
+                        <div class="counter">
+                            <button class="minus">-</button>
+                            <span class="count">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Paket Ayam</span>
+                    <img class="shop-item-image" src="images/Ayam.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rp. 38.000</span>
+                        <div class="counter">
+                            <button class="minus">-</button>
+                            <span class="count">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Coca-Cola McFloat</span>
+                    <img class="shop-item-image" src="images/Coke.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rp. 14.500</span>
+                        <div class="counter">
+                            <button class="minus">-</button>
+                            <span class="count">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Iced Coffee</span>
+                    <img class="shop-item-image" src="images/Coffee.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rp. 19.000</span>
+                        <div class="counter">
+                            <button class="minus">-</button>
+                            <span class="count">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">McFlurry feat. Oreo</span>
+                    <img class="shop-item-image" src="images/McFlurry.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rp. 13.500</span>
+                        <div class="counter">
+                            <button class="minus">-</button>
+                            <span class="count">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total Pembelian</strong>
+                <span class="cart-total-price">Rp. 0</span>
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Pajak 11%</strong>
+                <span class="cart-total-tax">Rp. 0</span>
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total Bayar</strong>
+                <span class="cart-total-pricetax">Rp. 0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+    </body>
+</html>
